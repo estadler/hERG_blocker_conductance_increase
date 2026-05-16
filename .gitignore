@@ -39,3 +39,9 @@
 
 # debug information files
 *.dwo
+
+# Figures folder and saved output
+Figs/*
+*.mat
+
+*.DS_Store
