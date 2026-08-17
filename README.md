@@ -1,4 +1,4 @@
-# hERG_blocker_conductance_increase
+# hERG_blocker_conductance_increase #test
 This repository contains all code and data for the mathematical simulations presented in "A hERG Blocker Facilitates K+ Channel Current by Promoting Pore Opening while Blocking" by Steffen Docken, Matthew Marquis, Khoa Ngo, Yuumu Wada, Satomi Kita, Vladimir Yarov-Yarovoy, Colleen Clancy, Igor Vorobyov, Timothy Lewis, Kazuharu Furutani, and Jon Sack (DOI: 10.1085/jgp.202614015).
 
 Running Driver.m will run all scripts in the appropriate order to generate all mathematical modeling results and figures in the manuscript. Note, some scripts use parralel for loops (parfor), which require the Parallel Computing toolbox. If the user does not have access to the Parallel Computing toolbox, these will need to be changed to standard for loops. The rest of this README file gives a brief overview of the various scripts and functions.
